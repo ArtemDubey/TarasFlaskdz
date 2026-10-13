@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block title %}Про мене{% endblock %}
+
+{% block content %}
+    <h1>Про мене</h1>
+    <p><b>Ім'я:</b> {{ profile.name }}</p>
+    <p><b>Вік:</b> {{ profile.age }} років</p>
+    <p><b>Місто:</b> {{ profile.city }}</p>
+{% endblock %}

@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block title %}Навички{% endblock %}
+
+{% block content %}
+    <h1>Мої навички</h1>
+    <ul>
+        {% for skill in profile.skills %}
+            <li>{{ skill }}</li>
+        {% endfor %}
+    </ul>
+{% endblock %}
